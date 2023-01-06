@@ -1,0 +1,256 @@
+[
+    {
+        "page_id": "ID_1723255651",
+        "page_type": "question",
+        "page-title": "What type of supplementary material do you have?",
+        "page-body": "datatype.md",
+        "answers": [
+            {
+                "answer_id": "ID_865816757",
+                "answer_text": "Research Data",
+                "next-page-id": "ID_555730790",
+                "next-page-type": "question"
+            },
+            {
+                "answer_id": "ID_463176074",
+                "answer_text": "Research Software",
+                "next-page-id": "ID_935438575",
+                "next-page-type": "info"
+            },
+            {
+                "answer_id": "ID_60040568",
+                "answer_text": "Analysis Scripts",
+                "next-page-id": "ID_145521606",
+                "next-page-type": "question"
+            },
+            {
+                "answer_id": "ID_434592209",
+                "answer_text": "Media (Images/Videos etc)",
+                "next-page-id": "ID_752094081",
+                "next-page-type": "info"
+            },
+            {
+                "answer_id": "ID_1013157391",
+                "answer_text": "Multiple/Mixture",
+                "next-page-id": "ID_1394629402",
+                "next-page-type": "info"
+            }
+        ]
+    },
+    {
+        "page_id": "ID_865816757",
+        "page_type": "question",
+        "page-title": "Research Data",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_555730790",
+        "page_type": "question",
+        "page-title": "Does your data contain any information of a sensitive nature?",
+        "page-body": "research-data.md",
+        "answers": [
+            {
+                "answer_id": "ID_1194301554",
+                "answer_text": "Yes",
+                "next-page-id": "ID_1606439330",
+                "next-page-type": "info"
+            },
+            {
+                "answer_id": "ID_227191685",
+                "answer_text": "No",
+                "next-page-id": "ID_744551955",
+                "next-page-type": "question"
+            },
+            {
+                "answer_id": "ID_1180152876",
+                "answer_text": "Not Sure",
+                "next-page-id": "ID_1522328875",
+                "next-page-type": "info"
+            }
+        ]
+    },
+    {
+        "page_id": "ID_1194301554",
+        "page_type": "question",
+        "page-title": "Yes",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_1606439330",
+        "page_type": "info",
+        "page-title": "Sensitive Data",
+        "page-body": "sensitive-data.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_227191685",
+        "page_type": "question",
+        "page-title": "No",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_744551955",
+        "page_type": "question",
+        "page-title": "How big is your data?",
+        "page-body": "data-size.md",
+        "answers": [
+            {
+                "answer_id": "ID_1109780188",
+                "answer_text": "Less than 5GB",
+                "next-page-id": "ID_754079594",
+                "next-page-type": "info"
+            },
+            {
+                "answer_id": "ID_113267969",
+                "answer_text": "More than 5GB",
+                "next-page-id": "ID_654861727",
+                "next-page-type": "info"
+            }
+        ]
+    },
+    {
+        "page_id": "ID_1109780188",
+        "page_type": "question",
+        "page-title": "Less than 5GB",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_754079594",
+        "page_type": "info",
+        "page-title": "Data Publishing Platforms",
+        "page-body": "data-publishing-platforms-less5gb.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_113267969",
+        "page_type": "question",
+        "page-title": "More than 5GB",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_654861727",
+        "page_type": "info",
+        "page-title": "Dryad",
+        "page-body": "dryad.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_1180152876",
+        "page_type": "question",
+        "page-title": "Not Sure",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_1522328875",
+        "page_type": "info",
+        "page-title": "Determining if your data is sensitive",
+        "page-body": "sensitivity-determination.md",
+        "next-page-id": "ID_555730790",
+        "next-page-type": "question"
+    },
+    {
+        "page_id": "ID_463176074",
+        "page_type": "question",
+        "page-title": "Research Software",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_935438575",
+        "page_type": "info",
+        "page-title": "Github (for publishing research software)",
+        "page-body": "research-software.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_60040568",
+        "page_type": "question",
+        "page-title": "Analysis Scripts",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_145521606",
+        "page_type": "question",
+        "page-title": "Could your script(s) be reused in other research?",
+        "page-body": "scripts-reuse.md",
+        "answers": [
+            {
+                "answer_id": "ID_347898455",
+                "answer_text": "Yes",
+                "next-page-id": "ID_401372726",
+                "next-page-type": "info"
+            },
+            {
+                "answer_id": "ID_132496660",
+                "answer_text": "No",
+                "next-page-id": "ID_1646696065",
+                "next-page-type": "info"
+            }
+        ]
+    },
+    {
+        "page_id": "ID_347898455",
+        "page_type": "question",
+        "page-title": "Yes",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_401372726",
+        "page_type": "info",
+        "page-title": "Reusable Scripts",
+        "page-body": "reusable-scripts.md",
+        "next-page-id": "ID_935438575",
+        "next-page-type": "question"
+    },
+    {
+        "page_id": "ID_132496660",
+        "page_type": "question",
+        "page-title": "No",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_1646696065",
+        "page_type": "info",
+        "page-title": "Zenodo (for analysis scripts)",
+        "page-body": "zenodo-scripts.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_434592209",
+        "page_type": "question",
+        "page-title": "Images/Videos etc",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_752094081",
+        "page_type": "info",
+        "page-title": "Zenodo (for images/media etc)",
+        "page-body": "zenodo-media.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_1013157391",
+        "page_type": "question",
+        "page-title": "Multiple/Mixture",
+        "page-body": ""
+    },
+    {
+        "page_id": "ID_1394629402",
+        "page_type": "info",
+        "page-title": "Multiple Material",
+        "page-body": "multiple-material.md",
+        "next-page-type": "final",
+        "next-page-id": "ID_FINAL"
+    },
+    {
+        "page_id": "ID_FINAL",
+        "page_type": "final",
+        "page-title": "Thank you for using this guide",
+        "page-body": "final.md"
+    }
+]
